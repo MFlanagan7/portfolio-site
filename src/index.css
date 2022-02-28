@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --background: #010038;
+  --dark-blue: #293A80;
+  --light-blue: #537ec5;
+  --orange: #f39422;
+  --text-primary: #ffffff;
+  --baltic-sea: #2f2832;
+  --rodeo-dust: #cbb9a1;
+  --manatee: #92959b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  /* background: url('./img/grayangles.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
 }
