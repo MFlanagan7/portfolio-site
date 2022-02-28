@@ -1,11 +1,11 @@
 import StyledPanel from "./styles/Panel.styled"
 
-const Card = function() {
+const Panel = function() {
     return (
-        <StyledPanel>
+        <StyledPanel className="blog-section">
             This is a panel.
         </StyledPanel>
     )
 }
 
-export default Card
+export default Panel

@@ -7,13 +7,24 @@
   --baltic-sea: #2f2832;
   --rodeo-dust: #cbb9a1;
   --manatee: #92959b;
+  --fresh: #4abdac;
+  --vermillion: #fc4a1a;
+  --sunshine: #f7b733;
+  --clean: #dfdce3;
+  --dark: #121212;
+}
+
+@font-face {
+  font-family: 'AlegreyaSansSC-Medium';
+  src: url(./fonts/AlegreyaSansSC-Medium.ttf);
 }
 
 body {
   /* background: url('./img/grayangles.jpg');
   background-repeat: no-repeat;
   background-size: cover; */
+  font-family: 'AlegreyaSansSC-Medium';
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  color: var(--dark);
 }
