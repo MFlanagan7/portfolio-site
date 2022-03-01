@@ -9,8 +9,8 @@ const StyledHeroSection = styled.div`
     img {
         margin-top: 125px;
         clip-path: circle(41% at 48%);
-        max-width: 300px;
-        max-height: 400px;
+        max-width: 375px;
+        max-height: 500px;
     }
 
     h1, h2 {
