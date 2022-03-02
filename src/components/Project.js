@@ -1,5 +1,8 @@
 import StyledProject from "./styles/Project.styled.js"
 import StyledButton from "./styles/Button.styled.js"
+import { AiFillHtml5, AiFillGithub } from "react-icons/ai"
+import { DiCss3, DiJavascript1 } from "react-icons/di"
+import { SiNetlify } from "react-icons/si"
 
 const Project = function({item: { id, title, summary, lessons, thumbnail, technologies } }) {
     return(
@@ -11,7 +14,11 @@ const Project = function({item: { id, title, summary, lessons, thumbnail, techno
                 <StyledButton>Full Description</StyledButton>
                 <StyledButton>GitHub</StyledButton>
                 <h4>Tech Stack Used</h4>
-                <p>{technologies}</p>
+                <section>
+                    <AiFillHtml5 size="50px" />
+                    <p>HTML5</p>
+                </section>
+                
             </span>
             <span>
                 <h4>Summary</h4>

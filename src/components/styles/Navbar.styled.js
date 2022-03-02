@@ -12,9 +12,18 @@ const StyledNavbar = styled.div`
     justify-content: space-between;
 
     img {
-        height: 50px;
-        width: 50px;
-        margin: 10px 0 0 10px;
+        height: 75px;
+        width: 75px;
+        margin: 5px 0 0 10px;
+        cursor: pointer;
+    }
+
+    div {
+        margin-top: 5px;
+    }
+
+    button {
+        cursor: pointer;
     }
 `
 

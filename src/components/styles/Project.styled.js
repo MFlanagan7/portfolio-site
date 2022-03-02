@@ -38,6 +38,13 @@ const StyledProject = styled.div`
         justify-content: center;
         padding: 0 25px;
     }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 55px;
+    }
 `
 
 export default StyledProject
