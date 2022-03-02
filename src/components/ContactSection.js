@@ -13,7 +13,8 @@ const ContactSection = function () {
                     <FcSms size="150px" />
                     </span>
                     <hr />
-                    <form name="portfolio-contact" method="POST" data-netlify="true">
+                    <form name="portfolio-contact" netlify netlify-honeypot="bot-field" hidden>
+                        <input type="hidden" name="form-name" value="portfolio-contact" />
                         <p>
                             <label>Your Name: <input type="text" name="name" /></label>   
                         </p>
