@@ -41,9 +41,14 @@ const StyledProject = styled.div`
 
     section {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        max-width: 55px;
+        flex-flow: wrap;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 `
 

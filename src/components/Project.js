@@ -15,8 +15,26 @@ const Project = function({item: { id, title, summary, lessons, thumbnail, techno
                 <StyledButton>GitHub</StyledButton>
                 <h4>Tech Stack Used</h4>
                 <section>
-                    <AiFillHtml5 size="50px" />
-                    <p>HTML5</p>
+                    <aside>
+                        <AiFillHtml5 size="50px" />
+                        <p>HTML5</p>
+                    </aside>
+                    <aside>
+                        <DiCss3 size="50px" />
+                        <p>CSS3</p>
+                    </aside>
+                    <aside>
+                        <DiJavascript1 size="50px" />
+                        <p>Javascript</p>
+                    </aside>
+                    <aside>
+                        <AiFillGithub size="50px" />
+                        <p>Git & GitHub</p>
+                    </aside>
+                    <aside>
+                        <SiNetlify size="50px" />
+                        <p>Netlify</p>
+                    </aside>
                 </section>
                 
             </span>
