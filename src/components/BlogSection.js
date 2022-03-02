@@ -4,10 +4,13 @@ import StyledBlogSection from "./styles/BlogSection.styled"
 
 const BlogSection = function() {
     return(
-        <StyledBlogSection>
-            {content.map((item, index) => (
-                <BlogPost key={index} item={item} />
-            ))}
+        <StyledBlogSection className="blog-section">
+            <h1>Recent Posts</h1>
+            <div>
+                {content.map((item, index) => (
+                    <BlogPost key={index} item={item} />
+                ))}
+            </div>
         </StyledBlogSection>
     )
 }

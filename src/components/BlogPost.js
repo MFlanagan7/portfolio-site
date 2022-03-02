@@ -3,7 +3,7 @@ import asiabg from "../img/asiabg.jpg"
 
 const BlogPost = function({item: { id, title, body, image } }) {
     return(
-        <StyledBlogPost>
+        <StyledBlogPost layout={id % 2 === 0 && 'row-reverse'}>
             {/* <p>{id}</p> */}
             <h3>{title}</h3>
             <div>

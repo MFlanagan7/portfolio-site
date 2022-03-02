@@ -1,20 +1,15 @@
-import StyledButton from "./styles/Button.styled"
 import StyledProjectsSection from "./styles/ProjectsSection.styled"
+import Project from "./Project"
+import projects from "../projects"
 
 const ProjectsSection = function () {
     return (
-        <StyledProjectsSection>
-            <h1>Projects</h1>
-            <div>
-                <span>
-                    <StyledButton>See it Live</StyledButton>
-                    <StyledButton>Full Description</StyledButton>
-                    <StyledButton>GitHub</StyledButton>
-                </span>
-                <span>
-                    
-                </span>
-            </div>
+        <StyledProjectsSection className="projects-section">
+            <h1>Recent Projects</h1>
+            {projects.map((item, index) => (
+                <Project key={index} item={item} />
+            ))}
+            
         </StyledProjectsSection>
     )
 }

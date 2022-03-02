@@ -3,7 +3,7 @@ import heroImage from "../img/heroimage.jpg"
 
 const AboutSection = function() {
     return (
-        <StyledAboutSection>
+        <StyledAboutSection className="about-section">
             <h1>About Me</h1>
             <div>
                 <img src={heroImage} alt="Michael Flanagan dressed in a suit." />

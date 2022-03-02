@@ -4,10 +4,11 @@ const StyledHeroSection = styled.div`
     display: flex;
     justify-content: space-evenly;
     height: 100vh;
-    background: rgba(74, 189, 172, 0.5);
+    background: rgba(30, 30, 30, 0.2);
+    text-shadow: 2px 2px #1f2025;
 
     img {
-        margin-top: 125px;
+        margin-top: 75px;
         clip-path: circle(41% at 48%);
         max-width: 375px;
         max-height: 500px;
@@ -15,7 +16,6 @@ const StyledHeroSection = styled.div`
 
     h1, h2 {
         font-size: 4em;
-        color: #121212;
     }
 
     button {
@@ -23,7 +23,7 @@ const StyledHeroSection = styled.div`
     }
 
     div {
-        margin-top: 125px;
+        margin-top: 75px;
         max-width: 40%;
     }
 

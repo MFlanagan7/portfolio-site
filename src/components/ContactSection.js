@@ -1,11 +1,12 @@
 import StyledContactSection from "./styles/ContactSection.styled"
 import { FcSms } from 'react-icons/fc'
+import footerbg from "../img/scissortail.jpg"
 import StyledContainer from "./styles/Container.styled"
 
 const ContactSection = function () {
     return (
-        <StyledContainer>
-            <StyledContactSection>
+        <StyledContainer bg={footerbg}>
+            <StyledContactSection className="contact-section">
                 <h1>Contact</h1>
                 <div>
                     <span>
@@ -13,7 +14,7 @@ const ContactSection = function () {
                     <FcSms size="150px" />
                     </span>
                     <hr />
-                    <form name="portfolio-contact" method="post" netlify netlify-honeypot="bot-field" hidden>
+                    <form name="portfolio-contact" method="post" netlify="true" netlify-honeypot="bot-field" hidden>
                         <input type="hidden" name="form-name" value="portfolio-contact" />
                         <p>
                             <label>Your Name: <input type="text" name="name" /></label>   

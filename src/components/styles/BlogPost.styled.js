@@ -5,6 +5,7 @@ const StyledBlogPost = styled.div`
     padding: 10px;
     border: 2px solid grey;
     border-radius: 25px;
+    color: black;
 
     h3 {
         display: flex;
@@ -13,12 +14,13 @@ const StyledBlogPost = styled.div`
 
     div {
         display: flex;
+        flex-direction: ${({ layout }) => layout || 'row'};
         justify-content: space-between;
         padding: 10px 25px;
     }
 
     p {
-        margin: 0;
+        margin: 0 20px;
         padding: 0;
     }
 

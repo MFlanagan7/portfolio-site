@@ -4,11 +4,9 @@ const StyledAboutSection = styled.div`
     background: #121212;
     display: flex;
     flex-direction: column;
-    color: white;
     padding: 50px;
 
     h1 {
-        color: white;
         margin: 0 auto;
     }
 

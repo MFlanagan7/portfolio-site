@@ -10,7 +10,6 @@ const StyledNavbar = styled.div`
     right: 0;
     display: flex;
     justify-content: space-between;
-    z-index: 5;
 
     img {
         height: 50px;
