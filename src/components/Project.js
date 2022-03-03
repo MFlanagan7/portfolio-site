@@ -16,7 +16,7 @@ const Project = function({item: { id, title, summary, lessons, thumbnail, alt, t
 
     return(
         <StyledProject layout={id % 2 === 0 && 'row-reverse'}>
-            <span>
+            <article>
                 <h3>{title}</h3>
                 <img src={thumbnail} alt={alt} />
                 <StyledButton onClick={() => clickHandler(link)}>See it Live</StyledButton>
@@ -32,13 +32,13 @@ const Project = function({item: { id, title, summary, lessons, thumbnail, alt, t
                     
                 </section>
                 
-            </span>
-            <span>
+            </article>
+            <article>
                 <h3>Summary</h3>
                 <p>{summary}</p>
                 <h3>Lessons</h3>
                 <p>{lessons}</p>
-            </span>
+            </article>
             
         </StyledProject>
     )

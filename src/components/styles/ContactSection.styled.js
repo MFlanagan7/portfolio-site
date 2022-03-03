@@ -15,7 +15,7 @@ const StyledContactSection = styled.div`
         margin-right: 100px;
     }
 
-    span {
+    article {
         display: flex;
         justify-content: center;
         margin: 20px 0;

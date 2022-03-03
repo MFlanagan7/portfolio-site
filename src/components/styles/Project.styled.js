@@ -19,7 +19,7 @@ const StyledProject = styled.div`
         margin: 20px 100px;
     }
 
-    span {
+    article {
         display: flex;
         flex-direction: column;
         width: 50%;

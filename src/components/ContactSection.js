@@ -9,10 +9,10 @@ const ContactSection = function () {
             <StyledContactSection className="contact-section">
                 <h1>Contact</h1>
                 <div>
-                    <span>
+                    <article>
                         <h3>Lets get in touch!</h3>
                     <FcSms size="150px" />
-                    </span>
+                    </article>
                     <hr />
                     <form name="portfolio-contact" method="post" netlify="true" netlify-honeypot="bot-field" hidden>
                         <input type="hidden" name="form-name" value="portfolio-contact" />
