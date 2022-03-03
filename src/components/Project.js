@@ -1,47 +1,42 @@
 import StyledProject from "./styles/Project.styled.js"
 import StyledButton from "./styles/Button.styled.js"
-import { AiFillHtml5, AiFillGithub } from "react-icons/ai"
-import { DiCss3, DiJavascript1 } from "react-icons/di"
-import { SiNetlify } from "react-icons/si"
+import Badge from "./Badge.js"
+import * as Scroll from "react-scroll"
 
-const Project = function({item: { id, title, summary, lessons, thumbnail, technologies } }) {
+var scroll = Scroll.animateScroll;
+
+const Project = function({item: { id, title, summary, lessons, thumbnail, alt, technologies, link, description, github } }) {
+    function clickHandler(url) {
+        if (url === 'top') {
+            scroll.scrollToTop();
+        }
+        else 
+            window.open(url, "_blank")
+    }
+
     return(
         <StyledProject layout={id % 2 === 0 && 'row-reverse'}>
             <span>
-                <h2>{title}</h2>
-                <img src={thumbnail} alt="project 1" />
-                <StyledButton>See it Live</StyledButton>
+                <h3>{title}</h3>
+                <img src={thumbnail} alt={alt} />
+                <StyledButton onClick={() => clickHandler(link)}>See it Live</StyledButton>
                 <StyledButton>Full Description</StyledButton>
-                <StyledButton>GitHub</StyledButton>
-                <h4>Tech Stack Used</h4>
+                <StyledButton onClick={() => clickHandler(github)}>GitHub</StyledButton>
+                <h3>Tech Stack Used</h3>
                 <section>
-                    <aside>
-                        <AiFillHtml5 size="50px" />
-                        <p>HTML5</p>
-                    </aside>
-                    <aside>
-                        <DiCss3 size="50px" />
-                        <p>CSS3</p>
-                    </aside>
-                    <aside>
-                        <DiJavascript1 size="50px" />
-                        <p>Javascript</p>
-                    </aside>
-                    <aside>
-                        <AiFillGithub size="50px" />
-                        <p>Git & GitHub</p>
-                    </aside>
-                    <aside>
-                        <SiNetlify size="50px" />
-                        <p>Netlify</p>
-                    </aside>
+                    {technologies.map((tech) => {
+                        return (
+                            <Badge key={tech} tech={tech} />
+                        )
+                    })}
+                    
                 </section>
                 
             </span>
             <span>
-                <h4>Summary</h4>
+                <h3>Summary</h3>
                 <p>{summary}</p>
-                <h4>Lessons</h4>
+                <h3>Lessons</h3>
                 <p>{lessons}</p>
             </span>
             

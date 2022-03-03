@@ -7,7 +7,7 @@ const StyledProject = styled.div`
     justify-content: center;
     margin: 20px 100px;
 
-    h2, h4 {
+    h2, h3 {
         margin: 25px auto;
     }
 
@@ -29,7 +29,6 @@ const StyledProject = styled.div`
     img {
         margin: 0 auto;
         max-width: 95%;
-        clip-path: border-box;
         border-radius: 15px;
     }
 
@@ -43,12 +42,6 @@ const StyledProject = styled.div`
         display: flex;
         justify-content: center;
         flex-flow: wrap;
-    }
-
-    aside {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 `
 

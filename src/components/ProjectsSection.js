@@ -1,6 +1,7 @@
 import StyledProjectsSection from "./styles/ProjectsSection.styled"
 import Project from "./Project"
-import projects from "../projects"
+import { projects } from "../projects"
+import StyledButton from "./styles/Button.styled"
 
 const ProjectsSection = function () {
     return (
@@ -9,7 +10,9 @@ const ProjectsSection = function () {
             {projects.map((item, index) => (
                 <Project key={index} item={item} />
             ))}
-            
+            <div>
+                <StyledButton>See More Projects</StyledButton>
+            </div>
         </StyledProjectsSection>
     )
 }

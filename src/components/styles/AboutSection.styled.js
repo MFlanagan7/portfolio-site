@@ -7,7 +7,15 @@ const StyledAboutSection = styled.div`
     padding: 50px;
 
     h1 {
-        margin: 0 auto;
+        margin: 50px auto;
+    }
+    
+    
+    }
+
+    h2, p {
+        display: flex;
+        justify-content: center;
     }
 
     img {
@@ -21,6 +29,7 @@ const StyledAboutSection = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-flow: wrap;
     }
 
     p {

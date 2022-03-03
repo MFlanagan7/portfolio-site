@@ -6,7 +6,7 @@ const StyledContactSection = styled.div`
     flex-direction: column;
 
     h1 {
-        margin: 40px auto;
+        margin: 75px auto;
     }
 
     h3 {

@@ -6,6 +6,11 @@ const StyledBlogSection = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    h1 {
+        margin: 75px auto;
+    }
+    
 `
 
 export default StyledBlogSection

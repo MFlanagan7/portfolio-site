@@ -7,7 +7,12 @@ const StyledProjectsSection = styled.div`
     padding: 25px 0;
 
     h1 {
-        margin: 25px auto;
+        margin: 75px auto;
+    }
+    
+    div {
+        display: flex;
+        justify-content: center;
     }
 `
 
