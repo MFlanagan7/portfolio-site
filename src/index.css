@@ -3,6 +3,12 @@
   src: url(./fonts/AlegreyaSansSC-Medium.ttf);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'AlegreyaSansSC-Medium';
   margin: 0;

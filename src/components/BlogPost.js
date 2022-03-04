@@ -6,8 +6,8 @@ const BlogPost = function({item: { id, title, body, image } }) {
         <StyledBlogPost layout={id % 2 === 0 && 'row-reverse'}>
             <h3>{title}</h3>
             <div>
-                <p>{body}</p>
                 <img src={asiabg} alt='An asian city from street view.' />
+                <p>{body}</p>
             </div>
         </StyledBlogPost>
     )

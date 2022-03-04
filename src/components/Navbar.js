@@ -2,6 +2,7 @@ import StyledNavbar from "./styles/Navbar.styled"
 import Button from "./styles/Button.styled"
 import logo from "../img/MF-transparent.png"
 import { Link } from "react-scroll"
+import { GiHamburgerMenu } from "react-icons/gi"
 
 
 const Navbar = function() {
@@ -23,6 +24,7 @@ const Navbar = function() {
                 <Link to="contact-section" spy={true} smooth={true}>
                     <Button hoverbg="#393990">Contact</Button>
                 </Link>
+                <span><GiHamburgerMenu /></span>
             </div>
         </StyledNavbar>
     )

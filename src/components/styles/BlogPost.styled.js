@@ -25,9 +25,30 @@ const StyledBlogPost = styled.div`
     }
 
     img {
+        height: 10vh;
+        width: auto;
         max-height: 200px;
         border-radius: 25px;
         box-shadow: 0 0 5px 2px black;
+    }
+
+    @media screen and (max-width: 70em) {
+        div {
+            display: flex;
+            flex-direction: column;
+            flex-flow: wrap;
+            padding: 10px 25px;
+        }
+
+        img {
+            margin: 20px auto;
+        }
+
+        p {
+            margin-top: 10px;
+            text-align: justify;
+            text-justify: auto;
+        }
     }
 `
 

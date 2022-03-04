@@ -13,7 +13,7 @@ const StyledButton = styled.button`
     font-weight: bold;
     font-size: 1.2em;
     min-height: 50px;
-    font-family: "Roboto", Arial, sans-serif;
+    /* font-family: "Roboto", Arial, sans-serif; */
     &:hover {
         background: ${({ hoverbg }) => hoverbg || '#191970'};
         cursor: pointer;
