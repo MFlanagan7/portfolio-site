@@ -19,9 +19,9 @@ const Project = function({item: { id, title, summary, lessons, thumbnail, alt, t
             <article>
                 <h3>{title}</h3>
                 <img src={thumbnail} alt={alt} />
-                <StyledButton bg="#c9510c" onClick={() => clickHandler(link)}>See it Live</StyledButton>
+                <StyledButton border="#E6E6FA" bg="#2F2832" onClick={() => clickHandler(link)}>See it Live</StyledButton>
                 {/* <StyledButton bg="#c9510c">Full Description</StyledButton> */}
-                <StyledButton bg="#4078c0" onClick={() => clickHandler(github)}>GitHub</StyledButton>
+                <StyledButton border="#E6E6FA" bg="#2F2832" onClick={() => clickHandler(github)}>GitHub</StyledButton>
                 <h3>Tech Stack Used</h3>
                 <section>
                     {technologies.map((tech) => {

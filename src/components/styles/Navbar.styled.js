@@ -14,14 +14,14 @@ const StyledNavbar = styled.div`
     img {
         height: 50px;
         width: 50px;
-        margin: 5px 0 0 10px;
+        margin: 5px 0 0 25px;
         cursor: pointer;
     }
 
     img:hover {
         height: 55px;
         width: 55px;
-        margin: 0 0 0 5px;
+        margin: 0 0 0 20px;
     }
 `
 

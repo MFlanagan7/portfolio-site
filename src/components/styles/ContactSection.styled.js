@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const StyledContactSection = styled.div`
-    background: rgba(30, 30, 30, 0.2);
+    background: rgba(30, 30, 30, 0.3);
     display: flex;
     flex-direction: column;
 

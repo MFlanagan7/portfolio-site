@@ -4,7 +4,7 @@ const StyledHeroSection = styled.div`
     display: flex;
     justify-content: space-evenly;
     height: 100vh;
-    background: rgba(30, 30, 30, 0.0);
+    background: rgba(30, 30, 30, 0.1);
     text-shadow: 2px 2px #1f2025;
 
     img {

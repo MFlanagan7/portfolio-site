@@ -3,6 +3,7 @@ import styled from "styled-components"
 const StyledProject = styled.div`
     background: #303030;
     border-radius: 15px;
+    border: 2px solid #dcae96;
     display: flex;
     flex-direction: ${({ layout }) => layout || 'row'};
     justify-content: center;
@@ -31,6 +32,7 @@ const StyledProject = styled.div`
         margin: 0 auto;
         max-width: 95%;
         border-radius: 15px;
+        border: 2px solid lightblue;
     }
 
     p {

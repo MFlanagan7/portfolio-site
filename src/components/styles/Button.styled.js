@@ -2,10 +2,10 @@ import styled from "styled-components"
 
 const StyledButton = styled.button`
     background: ${({ bg }) => bg || 'rgba( 200, 200, 200, 0.0 )'};
-    border: ${({ border }) => border || 0};
+    border: ${({ border }) => border || 'none'};
     color: ${({ textColor }) => textColor || 'white'};
     text-shadow: 2px 2px #1f2025;
-    border: 2px solid #1f2025;
+    border: 2px solid #E6E6FA;
     border-radius: 40px 20px;
     padding: 0 15px;
     margin: 5px 10px;
@@ -14,7 +14,7 @@ const StyledButton = styled.button`
     min-height: 50px;
     font-family: "Roboto", Arial, sans-serif;
     &:hover {
-        background: ${({ hoverbg }) => hoverbg || 'rgba( 200, 200, 200, 0.5 )'};
+        background: ${({ hoverbg }) => hoverbg || '#191970'};
     }
 `
 
