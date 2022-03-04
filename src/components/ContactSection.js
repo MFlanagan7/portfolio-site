@@ -2,6 +2,7 @@ import StyledContactSection from "./styles/ContactSection.styled"
 import { FcSms } from 'react-icons/fc'
 import footerbg from "../img/scissortail.jpg"
 import StyledContainer from "./styles/Container.styled"
+import StyledButton from "./styles/Button.styled"
 
 const ContactSection = function () {
     return (
@@ -26,7 +27,7 @@ const ContactSection = function () {
                             <label>Message: <textarea name="message"></textarea></label>
                         </p>
                         <p>
-                            <button type="submit">Send</button>
+                            <StyledButton type="submit" bg="teal">Send</StyledButton>
                         </p>
                     </form>
                 </div>

@@ -6,7 +6,7 @@ const StyledButton = styled.button`
     color: ${({ textColor }) => textColor || 'white'};
     text-shadow: 2px 2px #1f2025;
     border: 2px solid #1f2025;
-    border-radius: 10px;
+    border-radius: 40px 20px;
     padding: 0 15px;
     margin: 5px 10px;
     font-weight: bold;

@@ -19,7 +19,7 @@ const StyledAboutSection = styled.div`
     }
 
     img {
-        margin-top: 50px;
+        margin: 0 auto;
         clip-path: circle(41% at 48%);
         max-width: 300px;
         max-height: 400px;

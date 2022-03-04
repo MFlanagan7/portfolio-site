@@ -4,7 +4,7 @@ const StyledBlogPost = styled.div`
     margin: 25px;
     padding: 10px;
     border: 2px solid grey;
-    border-radius: 25px;
+    border-radius: 20px;
     color: black;
 
     h3 {

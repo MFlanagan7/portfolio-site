@@ -23,10 +23,6 @@ const StyledNavbar = styled.div`
         width: 55px;
         margin: 0 0 0 5px;
     }
-
-    button {
-        cursor: pointer;
-    }
 `
 
 export default StyledNavbar

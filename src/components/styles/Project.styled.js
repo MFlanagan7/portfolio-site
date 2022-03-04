@@ -4,6 +4,7 @@ const StyledProject = styled.div`
     background: #303030;
     border-radius: 15px;
     display: flex;
+    flex-direction: ${({ layout }) => layout || 'row'};
     justify-content: center;
     margin: 20px 100px;
 

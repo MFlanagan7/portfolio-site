@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const StyledBlogSection = styled.div`
-    background: #bbb;
+    background: #eee;
     color: black;
     display: flex;
     flex-direction: column;

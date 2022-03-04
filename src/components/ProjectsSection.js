@@ -9,6 +9,7 @@ const ProjectsSection = function () {
             <h1>Recent Projects</h1>
             {projects.map((item, index) => (
                 <Project key={index} item={item} />
+                
             ))}
             <div>
                 <StyledButton>See More Projects</StyledButton>
