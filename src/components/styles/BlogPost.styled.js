@@ -5,7 +5,7 @@ const StyledBlogPost = styled.div`
     padding: 10px;
     border: 2px solid grey;
     border-radius: 20px;
-    color: black;
+    box-shadow: 0 0 5px 2px grey;
 
     h3 {
         display: flex;
@@ -20,12 +20,14 @@ const StyledBlogPost = styled.div`
     }
 
     p {
-        margin: 0 20px;
+        margin: 0 30px;
         padding: 0;
     }
 
     img {
         max-height: 200px;
+        border-radius: 25px;
+        box-shadow: 0 0 5px 2px black;
     }
 `
 

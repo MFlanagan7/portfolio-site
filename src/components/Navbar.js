@@ -11,17 +11,17 @@ const Navbar = function() {
                 <img src={logo} alt="Site logo depicting the letters M and F in orange on a two-toned blue background." />
             </Link>
             <div>
-                <Link activeClass="active" to="projects-section" spy={true} smooth={true}>
-                    <Button>Projects</Button>
+                <Link to="projects-section" spy={true} smooth={true}>
+                    <Button hoverbg="#393990">Projects</Button>
                 </Link>
                 <Link to="blog-section" spy={true} smooth={true}>
-                    <Button>Blog Posts</Button>
+                    <Button hoverbg="#393990">Blog Posts</Button>
                 </Link>
                 <Link to="about-section" spy={true} smooth={true}>
-                    <Button>About</Button>
+                    <Button hoverbg="#393990">About</Button>
                 </Link>
                 <Link to="contact-section" spy={true} smooth={true}>
-                    <Button>Contact</Button>
+                    <Button hoverbg="#393990">Contact</Button>
                 </Link>
             </div>
         </StyledNavbar>

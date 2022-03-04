@@ -6,6 +6,7 @@ const StyledButton = styled.button`
     color: ${({ textColor }) => textColor || 'white'};
     text-shadow: 2px 2px #1f2025;
     border: 2px solid #E6E6FA;
+    box-shadow: 0 0 5px 2px #E6E6FA;
     border-radius: 40px 20px;
     padding: 0 15px;
     margin: 5px 10px;
@@ -15,6 +16,7 @@ const StyledButton = styled.button`
     font-family: "Roboto", Arial, sans-serif;
     &:hover {
         background: ${({ hoverbg }) => hoverbg || '#191970'};
+        cursor: pointer;
     }
 `
 

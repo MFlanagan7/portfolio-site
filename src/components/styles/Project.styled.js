@@ -4,6 +4,7 @@ const StyledProject = styled.div`
     background: #303030;
     border-radius: 15px;
     border: 2px solid #dcae96;
+    box-shadow: 0 0 5px 2px #dcae96;
     display: flex;
     flex-direction: ${({ layout }) => layout || 'row'};
     justify-content: center;
@@ -29,10 +30,16 @@ const StyledProject = styled.div`
     }
 
     img {
-        margin: 0 auto;
+        margin: 10px auto;
         max-width: 95%;
         border-radius: 15px;
         border: 2px solid lightblue;
+        box-shadow: 0 0 5px 2px lightblue;
+    }
+
+    img:hover {
+        opacity: 0.8;
+        cursor: pointer;
     }
 
     p {
