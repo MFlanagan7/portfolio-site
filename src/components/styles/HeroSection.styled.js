@@ -92,10 +92,11 @@ const StyledHeroSection = styled.div`
 
         div {
             button {
-                min-width: 25vw;
+                min-width: 28vw;
                 min-height: 7vh;
-                font-size: 3vh;
+                font-size: 4vh;
                 border-radius: 10vh 5vh;
+                padding: 2vh;
             }
         }
 
@@ -108,7 +109,7 @@ const StyledHeroSection = styled.div`
         }
 
         p {
-            font-size: 5vh;
+            font-size: 6vh;
             margin: 25px;
         }
     }
