@@ -6,32 +6,28 @@ const StyledProject = styled.div`
     border: 2px solid #dcae96;
     box-shadow: 0 0 5px 2px #dcae96;
     display: flex;
-    flex-direction: ${({ layout }) => layout || 'row'};
-    justify-content: center;
-    margin: 20px 100px;
+    flex-direction: column;
+    align-items: center;
 
-    h2, h3 {
+    h3 {
         margin: 25px auto;
     }
 
     div {
         background: #303030;
         border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        margin: 20px 100px;
     }
 
     article {
         display: flex;
         flex-direction: column;
-        width: 50%;
         padding: 15px 0;
     }
 
     img {
         margin: 10px auto;
-        max-width: 95%;
+        max-width: 80%;
+        width: auto;
         border-radius: 15px;
         border: 2px solid lightblue;
         box-shadow: 0 0 5px 2px lightblue;
@@ -45,13 +41,64 @@ const StyledProject = styled.div`
     p {
         display: flex;
         justify-content: center;
-        padding: 0 25px;
+        padding: 10px 25px;
     }
 
     section {
         display: flex;
         justify-content: center;
         flex-flow: wrap;
+    }
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+        
+    }
+
+    // Large devices (desktops, 768px and up)
+    @media (min-width: 768px) {
+        flex-direction: ${({ layout }) => layout || 'row'};
+        align-items: flex-start;
+
+        article {
+            width: 50%;
+        }
+
+        img {
+            max-width: 95%;
+        }
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+        h3 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        img {
+            width: 95%;
+        }
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+        h3 {
+            font-size: 4vh;
+        }
+
+        p {
+            font-size: 3vh;
+        }
+
+        button {
+            font-size: 4vh;
+            border-radius: 10vh 5vh;
+            padding: 1vh;
+        }
     }
 `
 

@@ -13,6 +13,7 @@ const StyledProjectsSection = styled.div`
     div {
         display: flex;
         justify-content: center;
+        margin: 5vw;
     }
 `
 
