@@ -42,6 +42,7 @@ const StyledProject = styled.div`
         display: flex;
         justify-content: center;
         padding: 10px 25px;
+        text-indent: 40px;
     }
 
     section {

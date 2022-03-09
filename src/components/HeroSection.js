@@ -3,6 +3,8 @@ import StyledButton from "./styles/Button.styled"
 import StyledHeroSection from "./styles/HeroSection.styled"
 import navbg from "../img/okcstreet.jpg"
 import StyledContainer from "./styles/Container.styled"
+import { BiCopyAlt } from "react-icons/bi"
+import { email, copyEmail } from "../constants"
 
 const HeroSection = function() {
     return (
@@ -12,9 +14,9 @@ const HeroSection = function() {
                 <div>
                     <h1>Michael Flanagan,</h1>
                     <h2>web developer</h2>
-                    <p>Hello! I'm a web developer based in Oklahoma City.  I love working with web technologies and learning new skills.</p>
+                    <p>Hello! I'm a web developer based in Oklahoma City.  <br />I love working with web technologies and learning new skills.</p>
                     <StyledButton bg={'#2F2832'}>Get My Resume</StyledButton>
-                    <StyledButton bg={'#2F2832'}>michael@michaelflanagan.dev</StyledButton>
+                    <StyledButton bg={'#2F2832'} onClick={copyEmail}><BiCopyAlt /> Get My Email</StyledButton>
                 </div>
             </StyledHeroSection>
         </StyledContainer>

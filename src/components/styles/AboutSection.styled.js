@@ -27,13 +27,15 @@ const StyledAboutSection = styled.div`
 
     div {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         flex-flow: wrap;
     }
 
     p {
         margin: 20px 40px;
+        text-indent: 40px;
+        font-size: 1.3em;
     }
 `
 

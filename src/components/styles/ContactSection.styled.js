@@ -42,6 +42,10 @@ const StyledContactSection = styled.div`
         display: flex;
         align-items: right;
     }
+
+    textarea {
+        resize: none;
+    }
 `
 
 export default StyledContactSection

@@ -19,17 +19,29 @@ const StyledBlogPost = styled.div`
         padding: 10px 25px;
     }
 
+    span {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     p {
-        margin: 0 30px;
+        margin: 20px 30px;
         padding: 0;
+        text-indent: 40px;
     }
 
     img {
-        height: 10vh;
+        height: 100%;
         width: auto;
+        margin: auto;
         max-height: 200px;
         border-radius: 25px;
         box-shadow: 0 0 5px 2px black;
+    }
+
+    article img {
+        margin-top: 20px;
     }
 
     @media screen and (max-width: 70em) {
