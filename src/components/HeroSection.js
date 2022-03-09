@@ -4,7 +4,6 @@ import StyledHeroSection from "./styles/HeroSection.styled"
 import navbg from "../img/okcstreet.jpg"
 import StyledContainer from "./styles/Container.styled"
 import { BiCopyAlt } from "react-icons/bi"
-import { email, copyEmail } from "../constants"
 
 const HeroSection = function() {
     return (
