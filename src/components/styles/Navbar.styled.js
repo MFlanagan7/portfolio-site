@@ -39,6 +39,22 @@ const StyledNavbar = styled.div`
         display: none;
     }
 
+    section {
+        opacity: 0;
+        width: 30%;
+        background: #191970;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        transition: opacity 0.5s;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        font-size: 1.3em;
+    }
+
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {
 

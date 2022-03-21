@@ -6,6 +6,16 @@ import { GiHamburgerMenu } from "react-icons/gi"
 
 
 const Navbar = function() {
+    function toggleMobileNav() {
+        let section = document.querySelector('section');
+        if (section.style.opacity === '0') {
+            section.style.opacity = '1';
+        }
+        else {
+            section.style.opacity = '0';
+        }
+    }
+
     return (
         <StyledNavbar>
             <Link to="hero-section" spy={true} smooth={true}>
@@ -24,7 +34,21 @@ const Navbar = function() {
                 <Link to="contact-section" spy={true} smooth={true}>
                     <Button hoverbg="#393990">Contact</Button>
                 </Link>
-                <span><GiHamburgerMenu /></span>
+                <span onClick={toggleMobileNav}><GiHamburgerMenu /></span>
+                <section>
+                    <Link to="projects-section" spy={true} smooth={true} onClick={toggleMobileNav}>
+                        <p>Projects</p>
+                    </Link>
+                    <Link to="blog-section" spy={true} smooth={true} onClick={toggleMobileNav}>
+                        <p>Blog Posts</p>
+                    </Link>
+                    <Link to="about-section" spy={true} smooth={true} onClick={toggleMobileNav}>
+                        <p>About</p>
+                    </Link>
+                    <Link to="contact-section" spy={true} smooth={true} onClick={toggleMobileNav}>
+                        <p>Contact</p>
+                    </Link>
+                </section>
             </div>
         </StyledNavbar>
     )

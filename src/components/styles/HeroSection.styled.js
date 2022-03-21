@@ -22,6 +22,30 @@ const StyledHeroSection = styled.div`
         }
     }
 
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    span {
+        font-size: 70px;
+        margin: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        min-height: 100px;
+        background: #2F2832;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+
+    span:hover {
+        background: #191970;
+        box-shadow: 0 0 5px 2px #E6E6FA;
+    }
+
     h1 {
         font-size: 44px;
     }
