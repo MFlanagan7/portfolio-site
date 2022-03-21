@@ -1,6 +1,6 @@
 import StyledContactSection from "./styles/ContactSection.styled"
 import { FcSms } from 'react-icons/fc'
-import footerbg from "../img/scissortail.jpg"
+import footerbg from "../img/scissortail.webp"
 import StyledContainer from "./styles/Container.styled"
 import StyledButton from "./styles/Button.styled"
 

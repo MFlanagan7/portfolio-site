@@ -45,6 +45,7 @@ const StyledContactSection = styled.div`
 
     textarea {
         resize: none;
+        margin-bottom: 15px;
     }
 `
 

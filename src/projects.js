@@ -1,6 +1,6 @@
-import project1 from "./img/portfolio.png"
-import project2 from "./img/one-page-responsive.jpg"
-import project3 from "./img/global-web.jpg"
+import project1 from "./img/portfolio.webp"
+import project2 from "./img/one-page-responsive.webp"
+import project3 from "./img/global-web.webp"
 
 export const skills = ['html', 'css', 'javascript', 'github', 'firebase', 'netlify', 'react', 'vscode']
 

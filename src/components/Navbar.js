@@ -9,7 +9,7 @@ const Navbar = function() {
     return (
         <StyledNavbar>
             <Link to="hero-section" spy={true} smooth={true}>
-                <img src={logo} alt="Site logo depicting the letters M and F in orange on a two-toned blue background." />
+                <img src={logo} alt="Site logo depicting the letters M and F in white on a black circle." />
             </Link>
             <div>
                 <Link to="projects-section" spy={true} smooth={true}>

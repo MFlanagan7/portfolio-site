@@ -1,8 +1,8 @@
 import StyledBlogPost from "./styles/BlogPost.styled.js"
-import asiabg from "../img/asiabg.jpg"
-import image1 from '../img/Netlify-logo.png'
-import image2 from '../img/Huddle-landing-page.png'
-import image3 from '../img/growth.jpg'
+import asiabg from "../img/asiabg.webp"
+import image1 from '../img/Netlify-logo.webp'
+import image2 from '../img/Huddle-landing-page.webp'
+import image3 from '../img/growth.webp'
 
 const BlogPost = function({item: { id, title, body, image, alt } }) {
     function getImageTag(image) {

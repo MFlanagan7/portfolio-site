@@ -1,5 +1,4 @@
 import StyledAboutSection from "./styles/AboutSection.styled"
-import heroImage from "../img/heroimage.jpg"
 import Badge from "./Badge"
 import { skills } from "../projects"
 
@@ -8,7 +7,6 @@ const AboutSection = function() {
         <StyledAboutSection className="about-section">
             <h1>About Me</h1>
             <div>
-                <img src={heroImage} alt="Michael Flanagan dressed in a suit." />
                 <article>
                     <p>Hi! I’m Michael</p>
                     <p>I’ve had an interest in technology my whole life.  I grew up playing the next cool  Nintendo game that was released and being amazed at how games worked.  I remember negotiating with my sister who wanted to call and talk with her friends to let me use the only phone line in the house to surf the internet, download cool games from BBS boards, and browse AOL chat rooms.</p>
