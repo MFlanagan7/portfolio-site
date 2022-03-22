@@ -24,6 +24,10 @@ const StyledProject = styled.div`
         padding: 15px 0;
     }
 
+    a {
+        text-align: center;
+    }
+
     img {
         margin: 10px auto;
         max-width: 80%;

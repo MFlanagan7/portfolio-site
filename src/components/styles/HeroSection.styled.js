@@ -28,16 +28,16 @@ const StyledHeroSection = styled.div`
     }
 
     span {
-        font-size: 45px;
-        margin: 25px;
+        font-size: 35px;
+        margin: 20px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 65px;
-        min-height: 65px;
+        width: 55px;
+        min-height: 55px;
         background: #2F2832;
-        border-radius: 65px;
+        border-radius: 55px;
         cursor: pointer;
     }
 
