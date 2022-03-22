@@ -3,7 +3,6 @@ import StyledHeroSection from "./styles/HeroSection.styled"
 import navbg from "../img/okcstreet.webp"
 import StyledContainer from "./styles/Container.styled"
 import { AiFillLinkedin, AiOutlineMail, AiFillGithub, AiOutlineFilePdf } from "react-icons/ai"
-import { m, ee, s, r, u, e } from '../links'
 import { copyEmail } from "../constants"
 
 const HeroSection = function() {
@@ -20,7 +19,7 @@ const HeroSection = function() {
                     {/* <StyledButton bg={'#2F2832'} onClick={copyEmail}><BiCopyAlt /> Get My Email</StyledButton> */}
                     <section>
                         <span onClick={ () => {
-                            window.open(m + ee + s + r + u + e, "_blank")
+                            window.open('https://drive.google.com/file/d/1ej7WyaZgPUIA8-PueoLipslHq8rxgW17/view?usp=sharing', "_blank")
                         } }><AiOutlineFilePdf /></span>
                         <span onClick={copyEmail}><AiOutlineMail /></span>
                         <span onClick={ () => {
