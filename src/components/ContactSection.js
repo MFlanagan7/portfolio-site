@@ -12,21 +12,15 @@ const ContactSection = function () {
                 <div>
                     <article>
                         <h3>Lets get in touch!</h3>
-                    <FcSms size="150px" />
+                        <FcSms size="150px" />
                     </article>
                     <hr />
                     <span>
                         <form name="portfolio-contact" method="post" netlify="true" netlify-honeypot="bot-field" hidden>
                             <input type="hidden" name="form-name" value="portfolio-contact" />
-                            <p>
                                 <label>Your Name: <input type="text" name="name" /></label>   
-                            </p>
-                            <p>
                                 <label>Your Email: <input type="email" name="email" /></label>
-                            </p>
-                            <p>
                                 <label>Message: <textarea name="message" rows="10" cols="40"></textarea></label>
-                            </p>
                             <StyledButton type="submit" bg="teal">Send</StyledButton>
                         </form>
                     </span>

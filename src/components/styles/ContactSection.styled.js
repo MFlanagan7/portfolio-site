@@ -12,12 +12,13 @@ const StyledContactSection = styled.div`
     h3 {
         display: flex;
         align-items: center;
-        margin-right: 100px;
     }
 
     article {
         display: flex;
+        flex-direction: row;
         justify-content: center;
+        flex-wrap: wrap;
         margin: 20px 0;
     }
 
@@ -37,14 +38,22 @@ const StyledContactSection = styled.div`
         margin: 20px auto;
     }
 
+    label {
+        width: 90%;
+        margin: 5px;
+    }
+
     input, textarea {
+        width: inherit;
         margin: 0 20px;
+        padding: 5px;
         display: flex;
         align-items: right;
+        border-radius: 20px;
     }
 
     textarea {
-        resize: none;
+        resize: vertical;
         margin-bottom: 15px;
     }
 `

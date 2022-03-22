@@ -33,7 +33,7 @@ const StyledBlogPost = styled.div`
 
     img {
         height: 100%;
-        width: auto;
+        width: 70%;
         margin: auto;
         max-height: 200px;
         border-radius: 25px;
@@ -44,7 +44,20 @@ const StyledBlogPost = styled.div`
         margin-top: 20px;
     }
 
-    @media screen and (max-width: 70em) {
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+        img {
+            height: 100%;
+            width: auto;
+            margin: auto;
+            max-height: 200px;
+            border-radius: 25px;
+            box-shadow: 0 0 5px 2px black;
+        }
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media screen and (max-width: 768px) {
         div {
             display: flex;
             flex-direction: column;
@@ -61,6 +74,16 @@ const StyledBlogPost = styled.div`
             text-align: justify;
             text-justify: auto;
         }
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+
     }
 `
 

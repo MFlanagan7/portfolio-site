@@ -9,9 +9,11 @@ const Navbar = function() {
     function toggleMobileNav() {
         let section = document.querySelector('section');
         if (section.style.opacity === '0') {
+            section.style.visibility = 'visible';
             section.style.opacity = '1';
         }
         else {
+            section.style.visibility = 'hidden';
             section.style.opacity = '0';
         }
     }

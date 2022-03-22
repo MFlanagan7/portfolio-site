@@ -40,19 +40,21 @@ const StyledNavbar = styled.div`
     }
 
     section {
+        visibility: hidden;
         opacity: 0;
-        width: 30%;
+        width: 100%;
         background: #191970;
         position: absolute;
         top: 60px;
         right: 0;
-        transition: opacity 0.5s;
+        transition: visibility 0s, opacity 0.5s;
     }
 
     p {
         display: flex;
         justify-content: center;
-        font-size: 1.3em;
+        margin: 25px auto;
+        font-size: 1.5em;
     }
 
     // Small devices (landscape phones, 576px and up)

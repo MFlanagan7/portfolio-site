@@ -3,7 +3,7 @@ import StyledHeroSection from "./styles/HeroSection.styled"
 import navbg from "../img/okcstreet.webp"
 import StyledContainer from "./styles/Container.styled"
 import { AiFillLinkedin, AiOutlineMail, AiFillGithub, AiOutlineFilePdf } from "react-icons/ai"
-// import { BiCopyAlt } from "react-icons/bi"
+import { m, ee, s, r, u, e } from '../links'
 import { copyEmail } from "../constants"
 
 const HeroSection = function() {
@@ -20,7 +20,7 @@ const HeroSection = function() {
                     {/* <StyledButton bg={'#2F2832'} onClick={copyEmail}><BiCopyAlt /> Get My Email</StyledButton> */}
                     <section>
                         <span onClick={ () => {
-                            window.open("https://drive.google.com/file/d/1M9QmagaOFs_gK-jZX1lApHX83ewdsls3/view?usp=sharing", "_blank")
+                            window.open(m + ee + s + r + u + e, "_blank")
                         } }><AiOutlineFilePdf /></span>
                         <span onClick={copyEmail}><AiOutlineMail /></span>
                         <span onClick={ () => {
@@ -32,6 +32,7 @@ const HeroSection = function() {
                     </section>
                 </div>
             </StyledHeroSection>
+            <aside id="message-container">Email Copied!</aside>
         </StyledContainer>
     )
 }

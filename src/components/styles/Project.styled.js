@@ -51,9 +51,17 @@ const StyledProject = styled.div`
         flex-flow: wrap;
     }
 
+    button {
+        margin: 10px auto;
+        width: 80%;
+    }
+
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {
-        
+        button {
+            margin: 10px auto;
+            width: 80%;
+        }
     }
 
     // Large devices (desktops, 768px and up)

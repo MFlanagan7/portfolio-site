@@ -9,9 +9,6 @@ const StyledAboutSection = styled.div`
     h1 {
         margin: 50px auto;
     }
-    
-    
-    }
 
     h2, p {
         display: flex;
@@ -36,6 +33,10 @@ const StyledAboutSection = styled.div`
         margin: 20px 40px;
         text-indent: 40px;
         font-size: 1.3em;
+    }
+
+    aside p {
+        text-indent: 0;
     }
 `
 

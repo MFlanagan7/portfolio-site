@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 const StyledHeroSection = styled.div`
-    
     height: 100vh;
     background: rgba(30, 30, 30, 0.1);
     text-shadow: 2px 2px #1f2025;
@@ -25,19 +24,20 @@ const StyledHeroSection = styled.div`
     section {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     span {
-        font-size: 70px;
-        margin: 30px;
+        font-size: 45px;
+        margin: 25px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 100px;
-        min-height: 100px;
+        width: 65px;
+        min-height: 65px;
         background: #2F2832;
-        border-radius: 100px;
+        border-radius: 65px;
         cursor: pointer;
     }
 
@@ -73,6 +73,25 @@ const StyledHeroSection = styled.div`
             font-size: 26px;
             margin: 25px;
         }
+
+        section {
+            display: flex;
+            flex-direction: row;
+        }
+
+        span {
+            font-size: 50px;
+            margin: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 70px;
+            min-height: 70px;
+            background: #2F2832;
+            border-radius: 70px;
+            cursor: pointer;
+        }
     }
 
     // Medium devices (tablets, 768px and up)
@@ -102,6 +121,25 @@ const StyledHeroSection = styled.div`
         p {
             font-size: 30px;
             margin: 25px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: row;
+        }
+
+        span {
+            font-size: 60px;
+            margin: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            min-height: 80px;
+            background: #2F2832;
+            border-radius: 80px;
+            cursor: pointer;
         }
     }
 
@@ -135,6 +173,25 @@ const StyledHeroSection = styled.div`
         p {
             font-size: 6vh;
             margin: 25px;
+        }
+
+        section {
+        display: flex;
+        flex-direction: row;
+        }
+
+        span {
+            font-size: 80px;
+            margin: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            min-height: 100px;
+            background: #2F2832;
+            border-radius: 100px;
+            cursor: pointer;
         }
     }
 `
