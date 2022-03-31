@@ -2,7 +2,7 @@
 import StyledHeroSection from "./styles/HeroSection.styled"
 import navbg from "../img/okcstreet.webp"
 import StyledContainer from "./styles/Container.styled"
-import { AiFillLinkedin, AiOutlineMail, AiFillGithub, AiOutlineFilePdf } from "react-icons/ai"
+import { AiFillLinkedin, AiOutlineMail, AiFillGithub } from "react-icons/ai"
 import { copyEmail } from "../constants"
 
 const HeroSection = function() {
