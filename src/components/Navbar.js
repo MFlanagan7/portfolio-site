@@ -8,7 +8,7 @@ import { GiHamburgerMenu } from "react-icons/gi"
 const Navbar = function() {
     function toggleMobileNav() {
         let section = document.querySelector('section');
-        if (section.style.opacity === '0') {
+        if (section.style.visibility === 'hidden') {
             section.style.visibility = 'visible';
             section.style.opacity = '1';
         }

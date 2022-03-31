@@ -18,9 +18,9 @@ const HeroSection = function() {
                     } }>Get My Resume</StyledButton> */}
                     {/* <StyledButton bg={'#2F2832'} onClick={copyEmail}><BiCopyAlt /> Get My Email</StyledButton> */}
                     <section>
-                        <span onClick={ () => {
+                        {/* <span onClick={ () => {
                             window.open('https://drive.google.com/file/d/1ej7WyaZgPUIA8-PueoLipslHq8rxgW17/view?usp=sharing', "_blank")
-                        } }><AiOutlineFilePdf /></span>
+                        } }><AiOutlineFilePdf /></span> */}
                         <span onClick={copyEmail}><AiOutlineMail /></span>
                         <span onClick={ () => {
                             window.open("https://www.linkedin.com/in/michael-flanagan/", "_blank")

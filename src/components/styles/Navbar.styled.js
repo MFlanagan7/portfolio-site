@@ -41,7 +41,7 @@ const StyledNavbar = styled.div`
 
     section {
         visibility: hidden;
-        opacity: 0;
+        opacity: '0';
         width: 100%;
         background: #191970;
         position: absolute;
