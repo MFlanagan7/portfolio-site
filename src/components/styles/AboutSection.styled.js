@@ -24,7 +24,7 @@ const StyledAboutSection = styled.div`
 
     div {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         flex-flow: wrap;
     }

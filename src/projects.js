@@ -2,7 +2,7 @@ import project1 from "./img/portfolio.webp"
 import project2 from "./img/one-page-responsive.webp"
 import project3 from "./img/global-web.webp"
 
-export const skills = ['html', 'css', 'javascript', 'github', 'firebase', 'netlify', 'react', 'vscode']
+export const skills = ['html', 'css', 'javascript', 'github', 'firebase', 'figma', 'netlify', 'react', 'vscode']
 
 export const projects = [
     {
