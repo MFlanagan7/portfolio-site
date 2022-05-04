@@ -5,7 +5,7 @@ import * as Scroll from "react-scroll"
 
 var scroll = Scroll.animateScroll;
 
-const Project = function({item: { id, title, summary, lessons, thumbnail, alt, technologies, video, link, description, github } }) {
+const Project = function({item: { id, title, summary, lessons, thumbnail, alt, technologies, video, link, github } }) {
     function clickHandler(url) {
         if (url === 'top') {
             scroll.scrollToTop();
@@ -20,7 +20,6 @@ const Project = function({item: { id, title, summary, lessons, thumbnail, alt, t
                 <h3>{title}</h3>
                 <a href={video} target="_blank" rel="noreferrer"><img src={thumbnail} alt={alt} /></a>
                 <StyledButton border="#E6E6FA" bg="#2F2832" onClick={() => clickHandler(link)}>See it Live</StyledButton>
-                {/* <StyledButton bg="#c9510c">Full Description</StyledButton> */}
                 <StyledButton border="#E6E6FA" bg="#2F2832" onClick={() => clickHandler(github)}>GitHub</StyledButton>
                 <h3>Tech Stack Used</h3>
                 <section>
