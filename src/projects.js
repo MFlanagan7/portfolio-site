@@ -27,7 +27,7 @@ export const projects = [
     },
     {
       id: 2,
-      title: 'Web Topology Internal Tool - (currently in development)',
+      title: 'Web Topology - (currently in development)',
       summary: [
         'Web Topology is an internal tool I am currently creating for a client to aid with their network topology mapping needs and is being built with OOP design principles in mind as well as utilizing various design patterns and the MVC architecture.  This tool is still very early in the prototyping stage.',
       ],
