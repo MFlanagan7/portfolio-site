@@ -1,5 +1,5 @@
-import project1 from "./img/portfolio-template.webp"
-import project2 from "./img/web-topology.webp"
+// import project1 from "./img/portfolio-template.webp"
+// import project2 from "./img/web-topology.webp"
 import project3 from "./img/portfolio.webp"
 import project4 from "./img/one-page-responsive.webp"
 import project5 from "./img/global-web.webp"
