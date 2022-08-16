@@ -7,43 +7,43 @@ import project5 from "./img/global-web.webp"
 export const skills = ['html', 'css', 'javascript', 'github', 'firebase', 'figma', 'netlify', 'react', 'vscode']
 
 export const projects = [
+    // {
+    //   id: 1,
+    //   title: 'Portfolio Template - (currently in development)',
+    //   summary: [
+    //     'This is an in progress project where I am both learning some design principles and working with Figma a bit more as well as rethinking how to organize styled components within React in an effort to keep code more maintainable.',
+    //   ],
+    //   lessons: [
+    //     'So far, this project has taught me the importance of code maintainability.  My other work with React has been great, however my project had become almost a mess of files by the end and something needed to be done.',
+    //     'By organizing each component in its own folder with its own index.js file and separating thhe jsx from css in their own separate files has worked wonders in improving maintainability and ease of working within the folder structure.',
+    //     'I am also learning Material UI and visual design principles and how to implement those ideas into Figma.',
+    //   ],
+    //   thumbnail: project1,
+    //   alt: 'Single page portfolio template design.',
+    //   technologies: ['html', 'css', 'javascript', 'github', 'react', 'figma'],
+    //   video: 'https://youtu.be/LBtI9vOi3bI',
+    //   link: 'https://www.figma.com/file/PJEAb4MNlza681UyFWVwDj/Portfolio-Design?node-id=0%3A1',
+    //   github: 'https://github.com/MFlanagan7/portfolio',
+    // },
+    // {
+    //   id: 2,
+    //   title: 'Web Topology - (currently in development)',
+    //   summary: [
+    //     'Web Topology is an internal tool I am currently creating for a client to aid with their network topology mapping needs and is being built with OOP design principles in mind as well as utilizing various design patterns and the MVC architecture.  This tool is still very early in the prototyping stage.',
+    //   ],
+    //   lessons: [
+    //     'Working with OOP concepts and making use of deign patterns has been a great reinforcement of my knowledge as well as further ensuring that the code stays readable and maintainable.',
+    //     'I am also gaining valuable insight and experience by working directly with an end user client who is great at delivering functional and non-functional requirements that the software has.',
+    //   ],
+    //   thumbnail: project2,
+    //   alt: 'Web Topology internal network mapping software.',
+    //   technologies: ['html', 'css', 'javascript', 'github', 'firebase'],
+    //   video: 'https://youtu.be/o067FrNM8eM',
+    //   link: 'https://webtopology-7a8a3.web.app/',
+    //   github: 'https://github.com/MFlanagan7/WebTopology',
+    // },
     {
       id: 1,
-      title: 'Portfolio Template - (currently in development)',
-      summary: [
-        'This is an in progress project where I am both learning some design principles and working with Figma a bit more as well as rethinking how to organize styled components within React in an effort to keep code more maintainable.',
-      ],
-      lessons: [
-        'So far, this project has taught me the importance of code maintainability.  My other work with React has been great, however my project had become almost a mess of files by the end and something needed to be done.',
-        'By organizing each component in its own folder with its own index.js file and separating thhe jsx from css in their own separate files has worked wonders in improving maintainability and ease of working within the folder structure.',
-        'I am also learning Material UI and visual design principles and how to implement those ideas into Figma.',
-      ],
-      thumbnail: project1,
-      alt: 'Single page portfolio template design.',
-      technologies: ['html', 'css', 'javascript', 'github', 'react', 'figma'],
-      video: 'https://youtu.be/LBtI9vOi3bI',
-      link: 'https://www.figma.com/file/PJEAb4MNlza681UyFWVwDj/Portfolio-Design?node-id=0%3A1',
-      github: 'https://github.com/MFlanagan7/portfolio',
-    },
-    {
-      id: 2,
-      title: 'Web Topology - (currently in development)',
-      summary: [
-        'Web Topology is an internal tool I am currently creating for a client to aid with their network topology mapping needs and is being built with OOP design principles in mind as well as utilizing various design patterns and the MVC architecture.  This tool is still very early in the prototyping stage.',
-      ],
-      lessons: [
-        'Working with OOP concepts and making use of deign patterns has been a great reinforcement of my knowledge as well as further ensuring that the code stays readable and maintainable.',
-        'I am also gaining valuable insight and experience by working directly with an end user client who is great at delivering functional and non-functional requirements that the software has.',
-      ],
-      thumbnail: project2,
-      alt: 'Web Topology internal network mapping software.',
-      technologies: ['html', 'css', 'javascript', 'github', 'firebase'],
-      video: 'https://youtu.be/o067FrNM8eM',
-      link: 'https://webtopology-7a8a3.web.app/',
-      github: 'https://github.com/MFlanagan7/WebTopology',
-    },
-    {
-      id: 3,
       title: 'Portfolio Site',
       summary: [
         'This project was one of my favorites so far and has helped me break out of tutorial hell.  I also wanted this project to serve as a display of my JavasScript and React skills to potential employers or collaborators.  While I am still learning both technologies, I have learned so much with this project already, and I am sure that I will learn even more as I continue to make improvements to it as my skills grow.',
@@ -63,7 +63,7 @@ export const projects = [
       github: 'https://github.com/MFlanagan7/portfolio-site',
     },
     {
-      id: 4,
+      id: 2,
       title: 'Single-Page Design Template',
       summary: [
         'The task: Recreate a landing page created using Bootstrap',
@@ -82,7 +82,7 @@ export const projects = [
       github: 'https://github.com/MFlanagan7/one-page-responsive',
     },
     {
-      id: 5,
+      id: 3,
       title: 'Global Web Template',
       summary: [
         'This was one of my first projects with HTML and CSS where I learned a lot of basics.  The Coronavirus and other global concerns were the inspiration, and the site is geared toward travel safety precautions. A static HTML website with several pages along with CSS as the only technologies used allowed me to focus on learning only the basics without having to worry about learning too much at once.',
