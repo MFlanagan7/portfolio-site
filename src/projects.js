@@ -3,7 +3,7 @@ import project2 from "./img/web-topology.webp"
 import project3 from "./img/portfolio.webp"
 import project4 from "./img/one-page-responsive.webp"
 import project5 from "./img/global-web.webp"
-
+// https://www.figma.com/file/PJEAb4MNlza681UyFWVwDj/Portfolio-Design?node-id=0%3A1
 export const skills = ['html', 'css', 'javascript', 'github', 'firebase', 'figma', 'netlify', 'react', 'vscode']
 
 export const projects = [
@@ -21,8 +21,8 @@ export const projects = [
       thumbnail: project1,
       alt: 'Single page portfolio template design.',
       technologies: ['html', 'css', 'javascript', 'github', 'react', 'figma'],
-      video: 'https://youtu.be/LBtI9vOi3bI',
-      link: 'https://www.figma.com/file/PJEAb4MNlza681UyFWVwDj/Portfolio-Design?node-id=0%3A1',
+      video: 'https://youtu.be/bJhr3pR9gd0',
+      link: 'https://portfolio-six-liart-14.vercel.app/design',
       github: 'https://github.com/MFlanagan7/portfolio',
     },
     {
