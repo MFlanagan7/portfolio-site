@@ -57,7 +57,7 @@ export const projects = [
       ],
       thumbnail: project3,
       alt: 'Michael Flanagan web developer text over view of downtown Oklahoma City.',
-      technologies: ['html', 'css', 'javascript', 'github', 'netlify'],
+      technologies: ['html', 'css', 'javascript', 'react', 'github', 'netlify'],
       video: 'https://youtu.be/rPSmw5A5YOE',
       link: 'top',
       github: 'https://github.com/MFlanagan7/portfolio-site',
